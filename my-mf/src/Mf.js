@@ -30,7 +30,7 @@ const MedicalForm = () => {
   return (
 
     <div className="Form-container">
-      
+
       <form className="medical-form" onSubmit={handleSubmit}>
         <h2 className='formh2'>Medical Form</h2>
         <label className='inputs' htmlFor="firstName">First Name:</label>
@@ -42,6 +42,7 @@ const MedicalForm = () => {
           onChange={handleChange}
           required
         />
+        {/*  */}
 
         <label className='inputs' htmlFor="lastName">Last Name:</label>
         <input
