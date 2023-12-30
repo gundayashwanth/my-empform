@@ -20,7 +20,7 @@ const MedicalForm = () => {
     e.preventDefault();
   
     try {
-      // Send the form data to the backend
+      
       await axios.post('http://localhost:3000/submit-form', formData); // Update the URL
       console.log('Form submitted successfully!',formData);
     } catch (error) {
