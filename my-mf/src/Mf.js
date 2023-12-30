@@ -28,7 +28,9 @@ const MedicalForm = () => {
     }
   };
   return (
+  
     <div className="Form-container">
+      <div></div>
       <form className="medical-form" onSubmit={handleSubmit}>
         <h2 className='formh2'>Medical Form</h2>
         <label className='inputs' htmlFor="firstName">First Name:</label>
