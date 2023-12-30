@@ -1,0 +1,96 @@
+.Form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .medical-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(94, 48, 48, 0.1);
+    width: 300px;
+  }
+  .formh2{
+    text-align: center;
+    color: blue;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .inputs{
+    color: black;
+  }
+  
+  button {
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #06570b;
+  }
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  .tbh2{
+    margin-left: 150px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: blue;
+    color: white;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgb(213, 213, 255);
+    color: black;
+    font-size: medium;
+  }
+  tbody tr:nth-child(odd){
+    background-color: rgb(213, 213, 255);
+    color: black;
+    font-size: medium;
+  }
+  .btn{
+    background-color: blue;
+  }
+  .btn:hover{
+    background-color: rgb(11, 11, 136);
+  }
+  .btn2{
+    background-color: red;
+    margin-left: 50px;
+  }
+  .btn2:hover{
+    background-color: rgb(179, 12, 12);
+  }
