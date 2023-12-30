@@ -28,6 +28,7 @@ const MedicalForm = () => {
     }
   };
   return (
+    
   
     <div className="Form-container">
       <form className="medical-form" onSubmit={handleSubmit}>
