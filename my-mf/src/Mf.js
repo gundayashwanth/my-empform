@@ -62,18 +62,14 @@ const MedicalForm = () => {
         />
 
         <label className='inputs' htmlFor="gender">Gender:</label>
-        <select
+        <input
           id="gender"
           name="gender"
           value={formData.gender}
           onChange={handleChange}
           required
-        >
-          <option value="" disabled>Select</option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-          <option value="other">Other</option>
-        </select>
+        />
+   
 
         <label className='inputs' htmlFor="medicalHistory">Medical History:</label>
         <textarea
