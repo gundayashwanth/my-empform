@@ -8,7 +8,7 @@ const MedicalForm = () => {
     lastName: '',
     age: '',
     gender: '',
-    medicalHistory: '',
+    medicalHistory:'',
   });
 
   const handleChange = (e) => {
